@@ -16,7 +16,7 @@ deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync html/ s3://<your s3 bucket>/ --delete
+      - aws s3 sync html/ s3://honban.tohokuitnews.info/ --delete
   staging:
     branch: staging
     commands:
